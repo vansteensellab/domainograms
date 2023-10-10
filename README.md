@@ -1,16 +1,14 @@
 # Domainograms
 
-> **Perturbations in 3D genome organization can promote acquired drug resistance**
-> 
-> _Anna G Manjon; Stefano Giustino Manzo; Stefan Prekovic; Leon Potgeter; Tom van Schaik; Ning Qing Liu; Koen Flach; Daniel Peric-Hupkes; Stacey Joosten; Hans Teunissen; Anoek Friskes; Mila Ilic; Dorine Hintzen; Vinícius H Franceschini-Santos; Wilbert Zwart; Elzo de Wit; Bas van Steensel; René H Medema_
+> [**Perturbations in 3D genome organization can promote acquired drug resistance** <br> _Anna G Manjon; Stefano Giustino Manzo; Stefan Prekovic; Leon Potgeter; Tom van Schaik; Ning Qing Liu; Koen Flach; Daniel Peric-Hupkes; Stacey Joosten; Hans Teunissen; Anoek Friskes; Mila Ilic; Dorine Hintzen; Vinícius H Franceschini-Santos; Wilbert Zwart; Elzo de Wit; Bas van Steensel; René H Medema_](https://doi.org/10.1016/j.celrep.2023.113124)
 
 ---
 
-This repository contains a wrapper script to plot domainograms from GATC fragments files from pA-DamID experiments.
+This repository contains a wrapper script to plot domainograms from GATC fragment files from pA-DamID experiments.
 The code was used for the "**­­Perturbations in 3D genome organization can promote acquired drug resistance**" manuscript. 
 
 With this Rscript file, you only need to provide the path to your `*-gatc.counts.txt.gz` files for Dam-only and antibody files.
-Besides the domainogram, this script also produces in the output folder the correlation between the experimental and control data before and after LOESS correction.
+Besides the domainogram, this script also produces the correlation between the experimental and control data before and after LOESS correction in the output folder.
 
 # Installation
 
